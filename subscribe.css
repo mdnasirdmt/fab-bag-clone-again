@@ -1,0 +1,109 @@
+#mainBox{
+    height: 600px;
+    width: 75%;
+    border: 1px solid white;
+    margin:auto;
+    margin-top: 70px;
+    display: flex;
+}
+#picture{
+    height: 400px;
+    width: 40%;
+    border: 1px solid white;
+}
+#content{
+    height: 600px;
+    width: 60%;
+    margin-left: 30px;
+    
+    border: 1px solid white;
+}
+#small{
+    height: 100px;
+    width: 150px;
+}
+#big{
+    height: 300px;
+    width: 100%;
+}
+#home{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+div>p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 1px;
+}
+div>p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 50px;
+}
+div>p:nth-child(5){
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    margin-top: 50px;
+    color: #91877f;
+}
+div>p:nth-child(6){
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+#quantity{
+    height: 30px;
+    width: 140px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 35px;
+
+}
+#quantity>div:nth-child(1){
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+#quantity>div:nth-child(2){
+    font-size: 20px;
+    margin-top: 5px;
+}
+#quantity>div:nth-child(3){
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+#cart{
+    height: 20px;
+    width: 100%;
+    background-color:#252525;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+#social{
+    display: flex;
+    opacity: 0.5;
+    height: 15px;
+    width: 130px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#social div{
+    font-size: 20px;
+}
+#description{
+    display: flex;
+    height: 50px;
+    width: 45%;
+    margin: auto;
+    justify-content: space-evenly;
+}
