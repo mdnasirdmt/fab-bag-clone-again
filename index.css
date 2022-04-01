@@ -1,0 +1,84 @@
+.AVAILABLE{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.cross{
+    background-color: white;
+}
+.sub{
+    color: #e6bb64;
+    text-decoration: none;
+    padding:25px;
+    font-size: 20px;
+    
+}
+.image{
+    width: 188px;
+    height: 50px;
+}
+#container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.divv{
+    padding: 10px;
+    color: #e6bb64;
+}
+
+
+.what{
+    width: 100%;
+    margin-top: -70px;
+    padding: 100px;
+    line-height: 60px;
+    
+}
+h1{
+    
+    width: 335px;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px double #e5b95f;
+    
+}
+.box{
+    border: 1px solid red;
+    width: 200px;
+    height: 300px;
+}
+#carouselExampleSlidesOnly{
+   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+    border: 1px solid black;
+
+}
+/* #carouselExampleControls{
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+
+} */
+/* .moving{
+    width: 100%;
+    height: 200px;
+}
+.imm{
+    width:100%;
+    height: 300px;
+} 
+.con{
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+}
