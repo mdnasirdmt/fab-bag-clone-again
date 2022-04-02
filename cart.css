@@ -1,0 +1,39 @@
+
+  /* Navbar related css */
+  
+
+  #container{
+      height: 500px;
+      width: 80%;
+      margin-left: 300px;
+      margin-top: 100px;
+      
+  }
+  #heading{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  
+  table,
+  td,
+  th {
+    
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+  }
+  
+  tr > th {
+    background-color: white;
+    
+  }

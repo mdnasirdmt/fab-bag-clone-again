@@ -1,0 +1,141 @@
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+}
+#container{
+    height:600px;
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+}
+#facebook{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #46a;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+#facebook>#facebooktext{
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#facebookImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+#google{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #e54;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+#googletext{
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#googleimage{
+    height: 33px;
+    width: 34px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(193, 122, 113);
+}
+.data{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+}
+span{
+    color: red;
+}
+.name{
+    height: 40px;
+    width: 99%;
+    margin-top: 15px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#forget{
+    display: flex;
+    font-size: 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+#forget>div:nth-child(1){
+    color: red;
+}
+#signin{
+    margin-top: 20px;
+    height: 35px;
+    width:100%;
+    text-align: center;
+    background-color: #ec6;
+    font-size: 18px;
+    color: rgb(56, 49, 49);
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    border: none;
+}
+#signin:hover{
+    background-color: teal;
+    color: white;
+}
+#hrl{
+    display: flex;
+    margin-top: 15px;
+}
+#hrl hr{
+    width: 100%;
+    height: 1px;
+}
+#hrl p{
+    width: 20px;
+    font-size: 25px;
+    margin-top: -8px;
+}
+#signIn{
+    
+    height: 25px;
+    width: 98%;
+    text-align: center;
+    background-color: #ec6;
+    font-size: 18px;
+    color: rgb(56, 49, 49);
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+#signIn a{
+    text-decoration: none;
+    color: rgb(56, 49, 49);
+    
+}
+#signIn:hover{
+    background-color: teal;
+    
+}
+#signIn a:hover{
+    color: white;
+}
