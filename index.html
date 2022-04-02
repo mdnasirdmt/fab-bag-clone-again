@@ -32,7 +32,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*  hover dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(154, 67, 67, 0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f4f0f0;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .dropdown:hover .dropbtn {
+  background-color: #fff;
+} */
+
+/*  hover dropdown ended */
 
 /* Testimonials css is here  */
 
@@ -370,7 +398,7 @@ h3{
 <!-- nav -->
 <div id="fab-bag-nav">
 
-   <div class="subs1"><a href="subscribe.html " >SUBSCRIBE NOW</a></div>
+   <div class="subs1"><a href="subscribe.html" >SUBSCRIBE NOW</a></div>
 
    <div>
        <a href="index.html">
@@ -381,12 +409,25 @@ h3{
    <div class="fave-icons" >
        <div><i class="fa-solid fa-magnifying-glass divv1"></i></div>
        <div><i class="fa-solid fa-heart divv1"></i></div>
-       <div><i class="fa fa-address-card divv1"></i></div>
+
+       <div class="dropdown" style="float:right;">
+        <div class="dropbtn"><i class="fa-solid fa-user"></i></div>
+        <div class="dropdown-content">
+        <a href="#">Language en</a>
+        <a href="#">Chekout</a>
+        <a href="SignIn.html">Sign In</a>
+        <a href="create account.html">Create An Account</a>
+        </div>
+      </div>
+
        <div><i class="fa fa-shopping-cart divv1"></i></div>    
    </div> 
 
 </div>
-<!--  -->
+<!--***************************  -->
+
+
+
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
