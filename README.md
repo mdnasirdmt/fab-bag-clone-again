@@ -1,4 +1,5 @@
 Construct Week of Unit-2 | Project — Fab-Bag
+<img src="https://miro.medium.com/max/1100/1*eHFdAyb4__T351spRmC_oQ.png"></img>
 Hello Everyone, My name is Rupesh Sahu. Currently, I’m pursuing a Full Stack Web Development course at Masai School. I’m in unit-2. At the end of unit-2, Masai School gives a project to clone based on the syllabus of unit-2. We have to clone based on whatever we have learned so far till unit-2.
 
 They have assigned me a Project name called Fab-Bag.
@@ -11,7 +12,7 @@ Header Page Website
 How I cloned FAB-BAG Website:
 
 First, I built a homepage. On the homepage I have created a Navbar,header,logo SUBSCRIBE NOW, I have fixed a homepage page link like whenever a customer will click on a logo then he will get Subscribe for Month . After that, I have created a fixed navbar on top logo some auto-timer depending on the slider image which looks more pretty, and then I have added some pictures related to Fab-Bag products which will be available on the Fab-Bag website. After that, I have added a SUBSCRIPTION, on the website.
-
+<img src="https://miro.medium.com/max/1100/1*tGdC6NJg57rJl90Q68cwqQ.png"></img>
 
 Subscription Button for Month
 
@@ -24,7 +25,7 @@ After the homepage, I have created a signup page where the customers can create 
 
 After that,all the associated brands
 
-
+<img src="https://miro.medium.com/max/1400/1*RL08mT4L100DyPtQeu_dVA.png"></img>
 Image ASSOCIATED BRANDS
 After that footer page this website footer importatnt part of website
 
